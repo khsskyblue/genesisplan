@@ -102,7 +102,7 @@
       "settings": {
         "main": true,
         "title": "Genesis Holdings",
-        "meta_descr": "",
+        "meta_descr": "<meta name=\"viewport\" content=\"width=device-width\">",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
