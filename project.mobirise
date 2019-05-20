@@ -83,7 +83,7 @@
         "file": "@PROJECT_PATH@/fonts/NanumSquareL/font.otf"
       }
     ],
-    "uniqCompNum": 57,
+    "uniqCompNum": 58,
     "versionPublish": "4.10.0",
     "screenshot": "screenshot.png",
     "favicon": "",
@@ -102,7 +102,7 @@
       "settings": {
         "main": true,
         "title": "Genesis Holdings",
-        "meta_descr": "",
+        "meta_descr": "<head>\n<meta name=\"viewport\" content=\"width=device-width\">\n</head>",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
