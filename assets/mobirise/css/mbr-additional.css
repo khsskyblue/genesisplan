@@ -1821,26 +1821,86 @@ body {
 .cid-rnWCHYtNVD H2 {
   color: #000000;
 }
-.cid-rqZDYDC47s {
-  background: #00bef2;
-  padding-top: 60px;
-  padding-bottom: 60px;
+.cid-rqZLmn53WZ {
+  padding-top: 105px;
+  padding-bottom: 105px;
+  background-color: #ffffff;
 }
-.cid-rqZDYDC47s .image-block {
-  margin: auto;
+.cid-rqZLmn53WZ h2 {
+  text-align: left;
 }
-.cid-rqZDYDC47s figcaption {
-  position: relative;
+.cid-rqZLmn53WZ h4 {
+  text-align: left;
+  font-weight: 500;
 }
-.cid-rqZDYDC47s figcaption div {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
+.cid-rqZLmn53WZ p {
+  color: #767676;
+  text-align: left;
 }
-@media (max-width: 768px) {
-  .cid-rqZDYDC47s .image-block {
-    width: 100% !important;
+.cid-rqZLmn53WZ .aside-content {
+  flex-basis: 100%;
+  -webkit-flex-basis: 100%;
+}
+.cid-rqZLmn53WZ .block-content {
+  display: -webkit-flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  word-break: break-word;
+}
+.cid-rqZLmn53WZ .media {
+  margin: initial;
+  align-items: center;
+  -webkit-align-items: center;
+}
+.cid-rqZLmn53WZ .mbr-figure {
+  align-self: flex-start;
+  -webkit-align-self: flex-start;
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+}
+.cid-rqZLmn53WZ .card-img {
+  padding-right: 2rem;
+  width: auto;
+}
+.cid-rqZLmn53WZ .card-img span {
+  font-size: 72px;
+  color: #707070;
+}
+@media (min-width: 992px) {
+  .cid-rqZLmn53WZ .mbr-figure {
+    padding-right: 4rem;
   }
+}
+@media (max-width: 991px) {
+  .cid-rqZLmn53WZ .mbr-figure {
+    padding-right: 0;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 300px) {
+  .cid-rqZLmn53WZ .card-img span {
+    font-size: 40px !important;
+  }
+}
+.cid-rqZLmn53WZ .mbr-text B {
+  color: #20baed;
+}
+.cid-rqZLmn53WZ B {
+  color: #20baed;
+}
+.cid-rqZLmn53WZ P {
+  color: #232323;
+}
+.cid-rqZLmn53WZ H4 {
+  color: #20baed;
+}
+.cid-rqZLmn53WZ H2 {
+  color: #20baed;
+  text-align: left;
+}
+.cid-rqZLmn53WZ .mbr-text {
+  text-align: left;
 }
 @media (min-width: 992px) {
   .cid-rnXXp5BbO7 .mbr-figure {
