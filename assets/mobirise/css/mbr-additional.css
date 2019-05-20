@@ -1821,6 +1821,27 @@ body {
 .cid-rnWCHYtNVD H2 {
   color: #000000;
 }
+.cid-rqZDYDC47s {
+  background: #000000;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.cid-rqZDYDC47s .image-block {
+  margin: auto;
+}
+.cid-rqZDYDC47s figcaption {
+  position: relative;
+}
+.cid-rqZDYDC47s figcaption div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .cid-rqZDYDC47s .image-block {
+    width: 100% !important;
+  }
+}
 @media (min-width: 992px) {
   .cid-rnXXp5BbO7 .mbr-figure {
     padding-left: 4rem;
