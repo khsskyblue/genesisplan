@@ -29,7 +29,8 @@
       },
       "additionalSetColors": [
         "#000000",
-        "#f65100"
+        "#f65100",
+        "#20baed"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -824,7 +825,7 @@
             },
             ".mbr-text": {
               "text-align": "left",
-              "color": "#232323"
+              "color": "#20baed"
             }
           },
           "_name": "features11",
