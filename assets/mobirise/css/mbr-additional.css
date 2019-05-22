@@ -1328,7 +1328,7 @@ body {
 }
 .cid-rniXOTrcAy .navbar {
   padding: .5rem 0;
-  background: #000000;
+  background: rgba(45,45,45,0.98);
   transition: none;
   min-height: 77px;
 }
