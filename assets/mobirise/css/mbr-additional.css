@@ -1328,12 +1328,12 @@ body {
 }
 .cid-rniXOTrcAy .navbar {
   padding: .5rem 0;
-  background: rgba(45,45,45,0.98);
+  background: #ffffff;
   transition: none;
   min-height: 77px;
 }
 .cid-rniXOTrcAy .navbar-dropdown.bg-color.transparent.opened {
-  background: #000000;
+  background: #ffffff;
 }
 .cid-rniXOTrcAy a {
   font-style: normal;
@@ -1424,7 +1424,7 @@ body {
   padding-bottom: 0;
 }
 .cid-rniXOTrcAy .dropdown .dropdown-menu {
-  background: #000000;
+  background: #ffffff;
   display: none;
   position: absolute;
   min-width: 5rem;
@@ -1737,18 +1737,17 @@ body {
 .cid-rpaSAIxZdH {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #000000;
+  background-color: #ffffff;
 }
 .cid-rpaSAIxZdH .line {
-  background-color: #ffffff;
-  color: #ffffff;
+  background-color: #000000;
+  color: #000000;
   align: center;
   height: 2px;
   margin: 0 auto;
 }
 .cid-rpaSAIxZdH .section-text {
   padding: 2rem 0;
-  color: #ffffff;
 }
 .cid-rpaSAIxZdH .inner-container {
   margin: 0 auto;
