@@ -2310,7 +2310,7 @@ body {
 .cid-rnS0qC7WnH {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: #000000;
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
 }
 @media (max-width: 767px) {
   .cid-rnS0qC7WnH .content {
