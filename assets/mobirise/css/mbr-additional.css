@@ -1330,8 +1330,7 @@ body {
   padding: .5rem 0;
   linear-gradient(#ffffff 0%, transparent 100%);
   transition: none;
-  min-height: 77px;
-  opacity: 0.7;
+  min-height: 77px;  
 }
 .cid-rniXOTrcAy .navbar-dropdown.bg-color.transparent.opened {
   background: #ffffff;
