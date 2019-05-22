@@ -1331,6 +1331,7 @@ body {
   background: #ffffff;
   transition: none;
   min-height: 77px;
+  opacity:0.7;
 }
 .cid-rniXOTrcAy .navbar-dropdown.bg-color.transparent.opened {
   background: #ffffff;
