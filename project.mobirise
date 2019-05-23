@@ -13,15 +13,15 @@
         "warningColor": "#879A9F",
         "dangerColor": "#B1A374",
         "mainFont": "Rubik",
-        "display1Font": "Rajdhani",
+        "display1Font": "Russo One",
         "display1Size": 4.25,
-        "display2Font": "Rajdhani",
+        "display2Font": "Russo One",
         "display2Size": 3,
-        "display5Font": "Rajdhani",
+        "display5Font": "Russo One",
         "display5Size": 1.5,
         "display7Font": "Gothic A1",
         "display7Size": 1,
-        "display4Font": "Rajdhani",
+        "display4Font": "Russo One",
         "display4Size": 1,
         "isRoundedButtons": false,
         "isAnimatedOnScroll": true,
@@ -81,6 +81,11 @@
         "name": "NanumSquareL",
         "url": null,
         "file": "@PROJECT_PATH@/fonts/NanumSquareL/font.otf"
+      },
+      {
+        "css": "'Russo One', sans-serif",
+        "name": "Russo One",
+        "url": "https://fonts.googleapis.com/css?family=Russo+One:400"
       }
     ],
     "uniqCompNum": 57,

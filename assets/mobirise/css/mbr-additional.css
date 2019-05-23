@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Russo+One:400);
 @import url(https://fonts.googleapis.com/css?family=Gothic+A1:100,200,300,400,500,600,700,800,900);
 
 
@@ -21,28 +21,28 @@ body {
   line-height: 1.6;
 }
 .display-1 {
-  font-family: 'Rajdhani', sans-serif;
+  font-family: 'Russo One', sans-serif;
   font-size: 4.25rem;
 }
 .display-1 > .mbr-iconfont {
   font-size: 6.8rem;
 }
 .display-2 {
-  font-family: 'Rajdhani', sans-serif;
+  font-family: 'Russo One', sans-serif;
   font-size: 3rem;
 }
 .display-2 > .mbr-iconfont {
   font-size: 4.8rem;
 }
 .display-4 {
-  font-family: 'Rajdhani', sans-serif;
+  font-family: 'Russo One', sans-serif;
   font-size: 1rem;
 }
 .display-4 > .mbr-iconfont {
   font-size: 1.6rem;
 }
 .display-5 {
-  font-family: 'Rajdhani', sans-serif;
+  font-family: 'Russo One', sans-serif;
   font-size: 1.5rem;
 }
 .display-5 > .mbr-iconfont {
