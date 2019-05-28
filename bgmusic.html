@@ -1,1 +1,21 @@
 <iframe src="./love.mp3" allow="autoplay" style="display:none" id="iframeAudio"></iframe>
+<audio id="bg-audio" autoplay="autoplay" loop="loop">
+    <source src="./love.mp3"/>
+</audio>
+
+<script>
+    // 解决iOS禁止自动播放音频
+    // 微信自动播放音频
+    let bgAudio = document.getElementById('bg-audio');
+    bgAudio.play();
+    document.addEventListener("WeixinJSBridgeReady", function () {
+        bgAudio.play();
+    }, false);
+    // 其他应用在click/touch时触发播放
+    document.addEventListener('click', function () {
+        bgAudio.play()
+    })
+    document.addEventListener('touchstart', function () {
+        bgAudio.play()
+    })
+</script>
