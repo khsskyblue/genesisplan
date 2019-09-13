@@ -1328,12 +1328,12 @@ body {
 }
 .cid-rniXOTrcAy .navbar {
   padding: .5rem 0;
-  background: #000000;
+  background: #ffffff;
   transition: none;
   min-height: 77px;
 }
 .cid-rniXOTrcAy .navbar-dropdown.bg-color.transparent.opened {
-  background: #000000;
+  background: #ffffff;
 }
 .cid-rniXOTrcAy a {
   font-style: normal;
@@ -1424,7 +1424,7 @@ body {
   padding-bottom: 0;
 }
 .cid-rniXOTrcAy .dropdown .dropdown-menu {
-  background: #000000;
+  background: #ffffff;
   display: none;
   position: absolute;
   min-width: 5rem;
@@ -1495,7 +1495,7 @@ body {
   width: 30px;
   height: 2px;
   border-right: 5px;
-  background-color: #ffffff;
+  background-color: #000000;
 }
 .cid-rniXOTrcAy button.navbar-toggler .hamburger span:nth-child(1) {
   top: 0;
@@ -1560,6 +1560,10 @@ body {
 .cid-rniXOTrcAy .collapsed .navbar-collapse.collapsing .navbar-nav .nav-item,
 .cid-rniXOTrcAy .collapsed .navbar-collapse.show .navbar-nav .nav-item {
   clear: both;
+}
+.cid-rniXOTrcAy .collapsed .navbar-collapse.collapsing .navbar-nav .nav-item:last-child,
+.cid-rniXOTrcAy .collapsed .navbar-collapse.show .navbar-nav .nav-item:last-child {
+  margin-bottom: 1rem;
 }
 .cid-rniXOTrcAy .collapsed .navbar-collapse.collapsing .navbar-buttons,
 .cid-rniXOTrcAy .collapsed .navbar-collapse.show .navbar-buttons {
@@ -1657,6 +1661,10 @@ body {
   .cid-rniXOTrcAy .navbar-collapse.show .navbar-nav .nav-item {
     clear: both;
   }
+  .cid-rniXOTrcAy .navbar-collapse.collapsing .navbar-nav .nav-item:last-child,
+  .cid-rniXOTrcAy .navbar-collapse.show .navbar-nav .nav-item:last-child {
+    margin-bottom: 1rem;
+  }
   .cid-rniXOTrcAy .navbar-collapse.collapsing .navbar-buttons,
   .cid-rniXOTrcAy .navbar-collapse.show .navbar-buttons {
     text-align: center;
@@ -1718,7 +1726,7 @@ body {
 }
 .cid-rniXOTrcAy .nav-link:hover,
 .cid-rniXOTrcAy .dropdown-item:hover {
-  color: #c1c1c1 !important;
+  color: #f65100 !important;
 }
 .cid-rnU60sekxy H1 {
   text-align: left;
@@ -2447,14 +2455,5 @@ body {
   text-align: left;
 }
 .cid-rBUIXvteA9 H3 {
-  text-align: left;
-}
-.cid-rBWlH7rn88 {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: #000000;
-}
-.cid-rBWlH7rn88 .media-container-row .mbr-text {
-  color: #ffffff;
   text-align: left;
 }
