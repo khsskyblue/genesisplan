@@ -1729,7 +1729,7 @@ body {
   color: #f65100 !important;
 }
 .cid-rnU60sekxy H1 {
-  text-align: center;
+  text-align: left;
   color: #f65100;
 }
 .cid-rnU60sekxy SPAN {
@@ -1738,9 +1738,11 @@ body {
 .cid-rnU60sekxy .mbr-text,
 .cid-rnU60sekxy .mbr-section-btn {
   color: #000000;
+  text-align: left;
 }
 .cid-rnU60sekxy H3 {
   color: #000000;
+  text-align: left;
 }
 .cid-rnSzmH5vXJ {
   padding-top: 60px;
@@ -2436,7 +2438,6 @@ body {
 }
 .cid-rBUIXvteA9 .media-container-column {
   background-color: #000000;
-  opacity: 0.9;
 }
 @media (max-width: 767px) {
   .cid-rBUIXvteA9 .media-container-column {

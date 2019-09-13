@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "genesisholdings",
-    "currentPage": "404.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -553,17 +553,19 @@
               "background-color": "@bg-value"
             },
             "H1": {
-              "text-align": "center",
+              "text-align": "left",
               "color": "#f65100"
             },
             "SPAN": {
               "color": "#000000"
             },
             ".mbr-text, .mbr-section-btn": {
-              "color": "#000000"
+              "color": "#000000",
+              "text-align": "left"
             },
             "H3": {
-              "color": "#000000"
+              "color": "#000000",
+              "text-align": "left"
             }
           },
           "_name": "header2",
