@@ -626,7 +626,7 @@
               }
             },
             ".section-text DIV": {
-              "text-align": "center"
+              "text-align": "left"
             }
           },
           "_name": "content9",
