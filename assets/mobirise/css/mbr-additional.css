@@ -2150,7 +2150,7 @@ body {
 .cid-rnYBAt9XMZ {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-color: #000000;
+  background-color: #ffffff;
 }
 .cid-rnYBAt9XMZ .carousel-control {
   background: #000;
@@ -2430,4 +2430,18 @@ body {
 }
 .cid-rnS0qC7WnH B {
   color: #f65100;
+}
+.cid-rBUIXvteA9 {
+  background-image: url("../../../assets/images/background1.jpg");
+}
+.cid-rBUIXvteA9 .mbr-section-subtitle {
+  letter-spacing: .2rem;
+}
+.cid-rBUIXvteA9 .media-container-column {
+  background-color: #4f4943;
+}
+@media (max-width: 767px) {
+  .cid-rBUIXvteA9 .media-container-column {
+    padding: 1rem !important;
+  }
 }
