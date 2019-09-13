@@ -1850,7 +1850,7 @@ body {
 .cid-rBXq4XMca4 {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-image: url("../../../assets/images/background5.jpg");
+  background-image: url("../../../assets/images/mbr-3-1920x1280.jpg");
 }
 .cid-rBXq4XMca4 h2 {
   text-align: center;
@@ -1883,7 +1883,7 @@ body {
   word-break: break-word;
 }
 .cid-rBXq4XMca4 .mbr-section-subtitle {
-  color: #000000;
+  color: #ffffff;
   text-align: left;
 }
 .cid-rBXq4XMca4 .card-title {
@@ -1925,9 +1925,13 @@ body {
 }
 .cid-rBXq4XMca4 .mbr-section-title {
   text-align: left;
+  color: #ffffff;
 }
 .cid-rBXq4XMca4 .mbr-section-text {
-  color: #000000;
+  color: #ffffff;
+}
+.cid-rBXq4XMca4 .mbr-crt-title {
+  color: #ffffff;
 }
 .cid-rnSpciDmnf {
   padding-top: 60px;
