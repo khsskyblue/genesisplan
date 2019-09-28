@@ -70,12 +70,7 @@
     }
 
     // $(document).ready(init());
-
-    function InitializeButton() {
-        $('#startConfetti').click(InitializeConfetti);
-        $('#stopConfetti').click(DeactivateConfetti);
-        $('#restartConfetti').click(RestartConfetti);
-    }
+ 
 
     function SetGlobals() {
         $('body').append('<canvas id="confettiCanvas" style="position:absolute;top:0;left:0;display:none;z-index:99;"></canvas>');
