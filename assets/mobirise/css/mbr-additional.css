@@ -1841,13 +1841,27 @@ section.lazy-placeholder:after {
 .cid-rnYBAt9XMZ H2 {
   color: #767676;
 }
+.cid-rDouWYHqcE {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+.cid-rDouWYHqcE .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-rDouWYHqcE H2 {
+  color: #c32aa3;
+}
 .cid-rDosgRok33 {
   padding-top: 60px;
-  padding-bottom: 30px;
+  padding-bottom: 45px;
   background-color: #ffffff;
 }
 .cid-rDosgRok33 .mbr-section-subtitle {
   color: #767676;
+}
+.cid-rDosgRok33 H2 {
+  color: #121a2f;
 }
 .cid-rnS0qC7WnH {
   padding-top: 60px;
