@@ -1929,7 +1929,7 @@
           "loadsvg": "@PROJECT_PATH@/assets/images/loading.svg",
           "_params": {
             "paddingTop": 0,
-            "paddingBottom": 0,
+            "paddingBottom": "2",
             "postToLoad": "10",
             "facebookToken": "",
             "facebook": "",
