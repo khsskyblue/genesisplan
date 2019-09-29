@@ -1,5 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Russo+One:400&display=swap);
-@import url(https://fonts.googleapis.com/css?family=Gothic+A1:100,200,300,400,500,600,700,800,900&display=swap);
 
 
 
@@ -41,7 +40,7 @@ body {
   font-size: 1.6rem;
 }
 .display-7 {
-  font-family: 'Gothic A1', sans-serif;
+  font-family: 'Russo One', sans-serif;
   font-size: 1rem;
   font-display: swap;
 }
@@ -530,7 +529,7 @@ a:hover {
 }
 /* Scroll to top button*/
 .form-control {
-  font-family: 'Gothic A1', sans-serif;
+  font-family: 'Russo One', sans-serif;
   font-size: 1rem;
   font-display: swap;
 }
@@ -1943,6 +1942,9 @@ section.lazy-placeholder:after {
 }
 .cid-rnS0qC7WnH B {
   color: #f65100;
+}
+.cid-rnS0qC7WnH .copyright > p {
+  color: #000000;
 }
 .cid-rBUIXvteA9 .mbr-section-subtitle {
   letter-spacing: .2rem;
