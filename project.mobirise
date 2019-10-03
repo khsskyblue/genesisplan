@@ -595,7 +595,7 @@
               "text-align": "left"
             },
             "H2": {
-              "color": "#000000",
+              "color": "#a28448",
               "text-align": "left"
             }
           },
@@ -852,7 +852,7 @@
             },
             ".mbr-section-title": {
               "text-align": "left",
-              "color": "#ffffff"
+              "color": "#a28448"
             },
             ".mbr-section-text": {
               "color": "#ffffff"
@@ -881,7 +881,7 @@
               "text-align": "left"
             },
             "H2": {
-              "color": "#ffffff",
+              "color": "#a28448",
               "text-align": "left"
             }
           },
@@ -968,7 +968,7 @@
               "text-align": "left"
             },
             "H2": {
-              "color": "#ffffff",
+              "color": "#a28448",
               "text-align": "left"
             }
           },
@@ -1074,7 +1074,7 @@
               "text-align": "left"
             },
             "H2": {
-              "color": "#ffffff",
+              "color": "#a28448",
               "text-align": "left"
             }
           },
@@ -1827,7 +1827,8 @@
               }
             },
             "H2": {
-              "text-align": "left"
+              "text-align": "left",
+              "color": "#a28448"
             }
           },
           "_name": "testimonials1",
@@ -1851,7 +1852,7 @@
             },
             "H2": {
               "text-align": "left",
-              "color": "#000000"
+              "color": "#a28448"
             }
           },
           "_name": "content4",
