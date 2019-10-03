@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "genesisholdings",
-    "currentPage": "index.html",
+    "currentPage": "404.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -116,7 +116,7 @@
       "settings": {
         "main": true,
         "title": "Genesis Holdings",
-        "meta_descr": "",
+        "meta_descr": "Genesis makes an exhibition.",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
