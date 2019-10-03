@@ -98,7 +98,7 @@
       }
     ],
     "uniqCompNum": 112,
-    "versionPublish": "4.10.17",
+    "versionPublish": "4.11.0",
     "screenshot": "screenshot.png",
     "favicon": "",
     "noImageResize": "",
@@ -107,9 +107,10 @@
     "gdpr": "",
     "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-31388158-3\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-31388158-3');\r\n</script>",
     "robotsText": "User-agent: *\nAllow: /\n",
-    "robotsSwitcher": "on",
-    "sitemapSwitcherAuto": "on",
-    "sitemapSwitcher": "on"
+    "robotsSwitcher": true,
+    "sitemapSwitcherAuto": true,
+    "sitemapSwitcher": true,
+    "": "on"
   },
   "pages": {
     "index.html": {
@@ -2151,7 +2152,7 @@
           "_params": {}
         },
         {
-          "loadsvg": "@ADDONS_PATH@/social-feed/feed/assets/loading.svg",
+          "loadsvg": "@PROJECT_PATH@/assets/images/loading.svg",
           "_params": {
             "paddingTop": "2",
             "paddingBottom": "2",
