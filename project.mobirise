@@ -98,7 +98,7 @@
       }
     ],
     "uniqCompNum": 112,
-    "versionPublish": "4.10.16",
+    "versionPublish": "4.10.17",
     "screenshot": "screenshot.png",
     "favicon": "",
     "noImageResize": "",
@@ -2150,7 +2150,7 @@
           "_params": {}
         },
         {
-          "loadsvg": "@PROJECT_PATH@/assets/images/loading.svg",
+          "loadsvg": "@ADDONS_PATH@/social-feed/feed/assets/loading.svg",
           "_params": {
             "paddingTop": "2",
             "paddingBottom": "2",
