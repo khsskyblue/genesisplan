@@ -116,10 +116,11 @@
       "settings": {
         "main": true,
         "title": "Genesis Holdings",
-        "meta_descr": "Genesis makes an exhibition.",
+        "meta_descr": "Genesis makes an exhibition.\n\"Asia blockbuster exhibition culture contents hub\"\n",
         "header_custom": "",
         "footer_custom": "",
-        "html_before": ""
+        "html_before": "",
+        "meta_image": "@PROJECT_PATH@/assets/images/genesisholdings-ci-1.svg"
       },
       "components": [
         {
@@ -2276,7 +2277,8 @@
       "settings": {
         "meta_descr": "찾으시는 페이지가 없는 듯하네요.\n",
         "title": "페이지를 찾을 수 없음 - Genesis Holdings lnc.",
-        "order": 1
+        "order": 1,
+        "meta_image": ""
       },
       "components": [
         {
