@@ -624,7 +624,7 @@ section.lazy-placeholder:after {
 }
 .cid-rniXOTrcAy .navbar {
   padding: .5rem 0;
-  background: #ffffff;
+  background: linear-gradient(#ffffff 0%, transparent 100%);
   transition: none;
   min-height: 77px;
 }
