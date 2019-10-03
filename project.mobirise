@@ -6,7 +6,7 @@
       "name": "mobirise4",
       "title": "Mobirise 4",
       "styling": {
-        "primaryColor": "#20baed",
+        "primaryColor": "#149dcc",
         "secondaryColor": "#a28448",
         "successColor": "#F7ED4A",
         "infoColor": "#82786E",
@@ -98,7 +98,7 @@
       }
     ],
     "uniqCompNum": 112,
-    "versionPublish": "4.10.15",
+    "versionPublish": "4.10.16",
     "screenshot": "screenshot.png",
     "favicon": "",
     "noImageResize": "",
