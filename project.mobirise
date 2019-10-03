@@ -103,8 +103,6 @@
     "favicon": "",
     "noImageResize": "",
     "siteUrl": "https://www.genesisholdings.co.kr",
-    "cookiesAlert": "",
-    "gdpr": "",
     "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-31388158-3\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-31388158-3');\r\n</script>",
     "robotsText": "User-agent: *\nAllow: /\n",
     "robotsSwitcher": true,
@@ -117,11 +115,11 @@
       "settings": {
         "main": true,
         "title": "Genesis Holdings",
-        "meta_descr": "Genesis makes an exhibition.\n\"Asia blockbuster exhibition culture contents hub\"\n",
+        "meta_descr": "Genesis makes an exhibition.\n\"Asia blockbuster exhibition culture contents hub\"",
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "meta_image": "@PROJECT_PATH@/assets/images/genesisholdings-ci-1.svg"
+        "meta_image": "file:///C:/Program%20Files%20(x86)/Mobirise4/resources/app.asar/web/app/builder/../../app/themes/mobirise4/components/_images/background6.jpg"
       },
       "components": [
         {
