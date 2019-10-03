@@ -7,7 +7,7 @@
       "title": "Mobirise 4",
       "styling": {
         "primaryColor": "#149dcc",
-        "secondaryColor": "#f65100",
+        "secondaryColor": "#a28448",
         "successColor": "#F7ED4A",
         "infoColor": "#82786E",
         "warningColor": "#879A9F",
@@ -678,12 +678,12 @@
               "background-image": "url(@bg-value)"
             },
             ".mbr-section-subtitle": {
-              "color": "#000000",
+              "color": "#a28448",
               "font-weight": "300",
               "text-align": "center"
             },
             ".mbr-content-text": {
-              "color": "#767676"
+              "color": "#a28448"
             },
             ".card": {
               "word-wrap": "break-word",
@@ -706,14 +706,16 @@
               }
             },
             ".img-text": {
-              "color": "#000000",
+              "color": "#a28448",
               "text-align": "center"
             },
             "H4": {
-              "text-align": "center"
+              "text-align": "center",
+              "color": "#a28448"
             },
             ".mbr-section-title": {
-              "text-align": "center"
+              "text-align": "center",
+              "color": "#a28448"
             }
           },
           "_name": "counters6",
@@ -732,7 +734,7 @@
             "padding-bottom": "(@paddingBottom * 15px)",
             "background-color": "@bgColor",
             ".mbr-text": {
-              "color": "#000000"
+              "color": "#a28448"
             }
           },
           "_name": "content3",
@@ -751,7 +753,7 @@
             "padding-bottom": "(@paddingBottom * 15px)",
             "background-color": "@bgColor",
             ".mbr-text": {
-              "color": "#000000"
+              "color": "#a28448"
             }
           },
           "_name": "content3",
@@ -1787,7 +1789,7 @@
               "color": "#767676"
             },
             ".mbr-author-name": {
-              "color": "#282828"
+              "color": "#a28448"
             },
             ".mbr-testimonial": {
               ".panel-item": {
