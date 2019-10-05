@@ -13,15 +13,15 @@
         "warningColor": "#879A9F",
         "dangerColor": "#a28448",
         "mainFont": "Rubik",
-        "display1Font": "Anders",
+        "display1Font": "anders-webfont",
         "display1Size": "4.25",
-        "display2Font": "Anders",
+        "display2Font": "anders-webfont",
         "display2Size": "3",
-        "display5Font": "Anders",
+        "display5Font": "anders-webfont",
         "display5Size": "1",
         "display7Font": "Gothic A1",
         "display7Size": 1,
-        "display4Font": "Anders",
+        "display4Font": "anders-webfont",
         "display4Size": "1.5",
         "isRoundedButtons": false,
         "isAnimatedOnScroll": true,
@@ -97,10 +97,10 @@
         "url": "https://fonts.googleapis.com/css?family=Rock+Salt:400"
       },
       {
-        "css": "'Anders'",
-        "name": "Anders",
+        "css": "'anders-webfont'",
+        "name": "anders-webfont",
         "url": null,
-        "file": "@PROJECT_PATH@/fonts/Anders/font.ttf"
+        "file": "@PROJECT_PATH@/fonts/anders-webfont/font.woff"
       }
     ],
     "uniqCompNum": 113,
