@@ -13,28 +13,28 @@
         "warningColor": "#879A9F",
         "dangerColor": "#a28448",
         "mainFont": "Rubik",
-        "display1Font": "anders-webfont",
+        "display1Font": "Russo One",
         "display1Size": "4.25",
-        "display2Font": "anders-webfont",
+        "display2Font": "Russo One",
         "display2Size": "3",
-        "display5Font": "anders-webfont",
+        "display5Font": "Russo One",
         "display5Size": "1",
         "display7Font": "Gothic A1",
         "display7Size": 1,
-        "display4Font": "anders-webfont",
+        "display4Font": "Russo One",
         "display4Size": "1.5",
         "isRoundedButtons": false,
         "isAnimatedOnScroll": true,
         "isScrollToTopButton": true
       },
       "additionalSetColors": [
-        "#e50012",
         "#a28448",
         "#282828",
         "#c32aa3",
         "#000000",
         "#f65100",
-        "#20baed"
+        "#20baed",
+        "#121a2f"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -103,7 +103,7 @@
         "file": "@PROJECT_PATH@/fonts/anders-webfont/font.woff"
       }
     ],
-    "uniqCompNum": 113,
+    "uniqCompNum": 112,
     "versionPublish": "4.11.0",
     "screenshot": "screenshot.png",
     "favicon": "",
