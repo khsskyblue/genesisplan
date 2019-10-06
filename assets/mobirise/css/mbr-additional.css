@@ -624,12 +624,16 @@ section.lazy-placeholder:after {
 }
 .cid-rniXOTrcAy .navbar {
   padding: .5rem 0;
-  background: #ffffff;
+  background: rgba(240,240,240,0.8);
+  webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
   transition: none;
   min-height: 77px;
 }
 .cid-rniXOTrcAy .navbar-dropdown.bg-color.transparent.opened {
-  background: #ffffff;
+  background: rgba(240,240,240,0.8);
+  webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
 }
 .cid-rniXOTrcAy a {
   font-style: normal;
