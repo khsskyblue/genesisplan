@@ -109,14 +109,22 @@
     "sitemapSwitcherAuto": true,
     "sitemapSwitcher": true,
     "": "on",
-    "cookiesAlert": "",
+    "cookiesAlert": {
+      "colorText": "#424a4d",
+      "colorBg": "#eaeff1",
+      "colorButton": "#ffffff",
+      "colorLink": "#424a4d",
+      "underlineLink": true,
+      "opacity": "99",
+      "text": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>."
+    },
     "gdpr": ""
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Genesis Holdings",
+        "title": "제네시스홀딩스 Genesis Holdings",
         "meta_descr": "Genesis makes an exhibition.\n\"Asia blockbuster exhibition culture contents hub\"",
         "header_custom": "",
         "footer_custom": "",
@@ -2277,7 +2285,7 @@
     "404.html": {
       "settings": {
         "meta_descr": "찾으시는 페이지가 없는 듯하네요.\n",
-        "title": "페이지를 찾을 수 없음 - Genesis Holdings lnc.",
+        "title": " 페이지를 찾을 수 없음 - Genesis Holdings lnc.",
         "order": 1,
         "meta_image": ""
       },
