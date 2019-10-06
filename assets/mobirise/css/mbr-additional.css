@@ -627,6 +627,7 @@ section.lazy-placeholder:after {
   background: rgba(240,240,240,0.8);
   webkit-backdrop-filter: saturate(180%) blur(20px);
   backdrop-filter: saturate(180%) blur(20px);
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.3);
   transition: none;
   min-height: 77px;
 }
@@ -634,6 +635,7 @@ section.lazy-placeholder:after {
   background: rgba(240,240,240,0.8);
   webkit-backdrop-filter: saturate(180%) blur(20px);
   backdrop-filter: saturate(180%) blur(20px);
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.3);
 }
 .cid-rniXOTrcAy a {
   font-style: normal;
@@ -705,8 +707,8 @@ section.lazy-placeholder:after {
   display: inline-flex;
 }
 .cid-rniXOTrcAy .navbar-toggleable-sm .navbar-collapse {
-  justify-content: flex-end;
-  -webkit-justify-content: flex-end;
+  justify-content: center;
+  -webkit-justify-content: center;
   padding-right: 5rem;
   width: auto;
 }
