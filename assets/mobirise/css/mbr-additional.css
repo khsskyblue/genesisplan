@@ -631,7 +631,10 @@ section.lazy-placeholder:after {
   min-height: 77px;
 }
 .cid-rniXOTrcAy .navbar-dropdown.bg-color.transparent.opened {
-  background: #ffffff;
+  background: rgba(240,240,240,0.8);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.3);
 }
 .cid-rniXOTrcAy a {
   font-style: normal;
