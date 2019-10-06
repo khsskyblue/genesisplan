@@ -625,7 +625,8 @@ section.lazy-placeholder:after {
 .cid-rniXOTrcAy .navbar {
   padding: .5rem 0;
   background: rgba(240,240,240,0.8);
-  transition: none;
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);  
   min-height: 77px;
 }
 .cid-rniXOTrcAy .navbar-dropdown.bg-color.transparent.opened {
