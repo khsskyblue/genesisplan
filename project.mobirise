@@ -97,7 +97,7 @@
         "url": "https://fonts.googleapis.com/css?family=Rock+Salt:400"
       }
     ],
-    "uniqCompNum": 112,
+    "uniqCompNum": 114,
     "versionPublish": "4.11.0",
     "screenshot": "screenshot.png",
     "favicon": "",
@@ -2160,29 +2160,136 @@
           "_params": {}
         },
         {
-          "loadsvg": "@PROJECT_PATH@/assets/images/loading.svg",
-          "_params": {
-            "paddingTop": "2",
-            "paddingBottom": "2",
-            "postToLoad": "10",
-            "facebookToken": "",
-            "facebook": "",
-            "twitter": "",
-            "youtube": "UCsqL5MUKW9AxtMOsEzwt5RQ",
-            "bgColorRadio": true,
-            "bgColor": "#282828",
-            "bgImageRadio": false,
-            "bgImage": "@ADDONS_PATH@/social-feed/feed/assets/comments_bg.jpg",
-            "overlay": true,
-            "overlayColor": "#7e9b9f",
-            "overlayOpacity": 0.6
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-slider .carousel-control": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-slider .carousel-control-prev": {
+              "left": "0",
+              "margin-left": "2.5rem"
+            },
+            ".mbr-slider .carousel-control-next": {
+              "right": "0",
+              "margin-right": "2.5rem"
+            },
+            ".mbr-slider .modal-body .close": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-gallery-item > div::before": {
+              "content": "''",
+              "position": "absolute",
+              "left": "0",
+              "top": "0",
+              "width": "100%",
+              "height": "100%",
+              "background": "@overlayColor",
+              "opacity": "0",
+              "-webkit-transition": "0.2s opacity ease-in-out",
+              "transition": "0.2s opacity ease-in-out",
+              "& when (@gradOverlay)": {
+                "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+              }
+            },
+            ".mbr-gallery-item > div:hover": {
+              ".mbr-gallery-title::before": {
+                "background": "transparent !important"
+              },
+              "&:before": {
+                "opacity": "@overlayOpacity !important"
+              }
+            },
+            ".mbr-gallery-title": {
+              "font-size": ".9em",
+              "position": "absolute",
+              "display": "block",
+              "width": "100%",
+              "bottom": "0",
+              "padding": "1rem",
+              "color": "#fff",
+              "z-index": "2",
+              "&:before": {
+                "content": "\" \"",
+                "width": "100%",
+                "height": "100%",
+                "top": "0",
+                "left": "0",
+                "z-index": "-1",
+                "position": "absolute",
+                "background": "@overlayColor !important",
+                "opacity": "@overlayOpacity",
+                "-webkit-transition": "0.2s background ease-in-out",
+                "transition": "0.2s background ease-in-out",
+                "& when (@gradOverlay)": {
+                  "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+                }
+              }
+            },
+            ".mbr-gallery-item > div > span": {
+              "color": "#a28448"
+            }
           },
-          "alias": "social-feed",
-          "_tags": [
-            "Extension"
+          "_name": "gallery3",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"4\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#ffffff\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#282828\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\" mbr-gallery-show-text mbr-gallery-show-bullets></div>\n    </div>\n\n</section>",
+          "_cid": "rE6UAnJZOE",
+          "_protectedParams": [
+            "text_all",
+            "gallery__filtersTextStyle",
+            "gallery__filtersBtnStyle",
+            "gallery"
           ],
-          "_name": "feed",
-          "_anchor": "feed-2w"
+          "_global": false,
+          "_once": false,
+          "_params": {
+            "text_all": "All",
+            "gallery__filtersTextStyle": "display-7",
+            "gallery__filtersBtnStyle": "btn-primary-outline",
+            "gallery": [
+              {
+                "tags": "Awesome",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201996-1543482019-9-0-18-24-56.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=aa43MbERGLk",
+                "image": "@THEME_PATH@/components/_images/background1.jpg",
+                "thumb": "@THEME_PATH@/components/_images/background1.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "<b>스머프 익스피리언스 브뤼셀</b>",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201996-1543482019-9-0-18-26-30.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=cAQnWTT1JDs",
+                "image": "@THEME_PATH@/components/_images/background2.jpg",
+                "thumb": "@THEME_PATH@/components/_images/background2.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "<b>스머프 익스피리언스 파리 1</b>",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201996-1543482019-9-0-18-43-24.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=5zq1wHUCH2o",
+                "image": "@THEME_PATH@/components/_images/background4.jpg",
+                "thumb": "@THEME_PATH@/components/_images/background4.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "<b>스머프 익스피리언스 파리 2</b>",
+                "active": true
+              }
+            ]
+          },
+          "_anchor": "gallery3-35"
         },
         {
           "alias": false,
@@ -2272,7 +2379,7 @@
             }
           },
           "_name": "footer1",
-          "_customHTML": "<section group=\"Footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->  \n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Show Copyright\" name=\"showCopyright\" checked>\n        <select title=\"Icons\" name=\"iconsCount\">\n            <option value=\"0\">0</option>\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-1-1920x1280.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row content text-white\">\n            <div class=\"col-12 col-md-3\">\n                <div class=\"media-wrap\">\n                    <a href=\"#top\">\n                        <img src=\"@PROJECT_PATH@/assets/images/genesisholdings-ci-670x278.jpg\" alt=\"Genesis Holidngs\" title=\"Genesis Holidngs\">\n                    </a>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-3 mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                <h5 class=\"pb-3\">\n                    Address\n                </h5>\n                <p class=\"mbr-text\">서울시 서초구 강남대로 51길 10,<br>B1층 108-89호<br>(서초동,강남효성해링턴타워)&nbsp;<br></p>\n            </div>\n            <div class=\"col-12 col-md-3 mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                <h5 class=\"pb-3\">\n                    Contacts\n                </h5>\n                <p class=\"mbr-text\">\n                    Email: jaytogether@daum.net&nbsp;<br>Phone: +82 (10) 5177-2299<br></p>\n            </div>\n            <div class=\"col-12 col-md-3 mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                <h5 class=\"pb-3\">\n                    Links\n                </h5>\n                <p class=\"mbr-text\"><b><a href=\"http://bugtimekorea.com\" class=\"text-success\"># 벅타임 어드벤처</a><br><a href=\"http://smurfexperience.co.kr\" class=\"text-primary\"># 스머프 익스피리언스</a><br><a href=\"http://www.jurassicworldexhibition.kr/\" class=\"text-black\"># 쥬라기 월드 특별전</a></b><br></p>\n            </div>\n        </div>\n        <div class=\"footer-lower\" mbr-if=\"showCopyright\">\n            <div class=\"media-container-row\">\n                <div class=\"col-sm-12\">\n                    <hr>\n                </div>\n            </div>\n            <div class=\"media-container-row mbr-white\">\n                <div class=\"col-sm-6 copyright\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".copyright > p\">\n                        Copyright © 2019 Genesis Holdings Co., Ltd.&nbsp; 모든 권리 보유.</p>\n                </div>\n                <div class=\"col-md-6\">\n                    <div class=\"social-list align-right\" mbr-if=\"iconsCount > 0\">\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>0\">\n                            \n                                <a href=\"https://www.instagram.com/genesis_holdings\"><span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-instagram socicon\" style=\"color: rgb(255, 255, 255); fill: rgb(255, 255, 255);\"></span></a>\n                            \n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>1\">\n                            \n                                <a href=\"https://www.youtube.com/channel/UCsqL5MUKW9AxtMOsEzwt5RQ\"><span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-youtube socicon\"></span></a>\n                            \n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>2\">\n                            \n                                <a href=\"index.html\"><span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-youtube socicon\"></span></a>\n                            \n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>3\">\n                            \n                                <a href=\"index.html\"><span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-instagram socicon\"></span></a>\n                            \n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>4\">\n                            \n                                <a href=\"index.html\"><span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-googleplus socicon\"></span></a>\n                            \n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>5\">\n                            <a href=\"index.html\" target=\"_blank\">\n                                <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-linkedin socicon\"></span>\n                            </a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section group=\"Footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->  \n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Show Copyright\" name=\"showCopyright\" checked>\n        <select title=\"Icons\" name=\"iconsCount\">\n            <option value=\"0\">0</option>\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-1-1920x1280.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row content text-white\">\n            <div class=\"col-12 col-md-3\">\n                <div class=\"media-wrap\">\n                    <a href=\"#top\">\n                        <img src=\"@PROJECT_PATH@/assets/images/genesisholdings-ci-670x278.jpg\" alt=\"Genesis Holidngs\" title=\"Genesis Holidngs\">\n                    </a>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-3 mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                <h5 class=\"pb-3\">\n                    Address\n                </h5>\n                <p class=\"mbr-text\">서울시 서초구 강남대로 51길 10,<br>B1층 108-89호<br>(서초동,강남효성해링턴타워)&nbsp;<br></p>\n            </div>\n            <div class=\"col-12 col-md-3 mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                <h5 class=\"pb-3\">\n                    Contacts\n                </h5>\n                <p class=\"mbr-text\">\n                    Email: jaytogether@daum.net&nbsp;<br>Phone: +82 (10) 5177-2299<br></p>\n            </div>\n            <div class=\"col-12 col-md-3 mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                <h5 class=\"pb-3\">\n                    Links\n                </h5>\n                <p class=\"mbr-text\"><b><a href=\"http://bugtimekorea.com\" class=\"text-success\"># 벅타임 어드벤처</a><br><a href=\"http://smurfexperience.co.kr\" class=\"text-primary\"># 스머프 익스피리언스</a><br><a href=\"http://www.jurassicworldexhibition.kr/\" class=\"text-black\"># 쥬라기 월드 특별전</a></b><br></p>\n            </div>\n        </div>\n        <div class=\"footer-lower\" mbr-if=\"showCopyright\">\n            <div class=\"media-container-row\">\n                <div class=\"col-sm-12\">\n                    <hr>\n                </div>\n            </div>\n            <div class=\"media-container-row mbr-white\">\n                <div class=\"col-sm-6 copyright\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".copyright > p\">\n                        Copyright © 2019 Genesis Holdings Co., Ltd.&nbsp; 모든 권리 보유.</p>\n                </div>\n                <div class=\"col-md-6\">\n                    <div class=\"social-list align-right\" mbr-if=\"iconsCount > 0\">\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>0\">\n                            \n                                <a href=\"https://www.instagram.com/genesis_holdings\"><span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-instagram socicon\" style=\"color: rgb(162, 132, 72); fill: rgb(162, 132, 72);\"></span></a>\n                            \n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>1\">\n                            \n                                <a href=\"https://www.youtube.com/channel/UCsqL5MUKW9AxtMOsEzwt5RQ\"><span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-youtube socicon\" style=\"color: rgb(162, 132, 72); fill: rgb(162, 132, 72);\"></span></a>\n                            \n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>2\">\n                            \n                                <a href=\"index.html\"><span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-youtube socicon\"></span></a>\n                            \n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>3\">\n                            \n                                <a href=\"index.html\"><span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-instagram socicon\"></span></a>\n                            \n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>4\">\n                            \n                                <a href=\"index.html\"><span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-googleplus socicon\"></span></a>\n                            \n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>5\">\n                            <a href=\"index.html\" target=\"_blank\">\n                                <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-linkedin socicon\"></span>\n                            </a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rnS0qC7WnH",
           "_anchor": "footer1-h",
           "_protectedParams": [],
