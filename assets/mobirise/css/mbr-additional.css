@@ -649,12 +649,12 @@ section.lazy-placeholder:after {
 }
 .cid-rniXOTrcAy .nav-item a {
   display: -webkit-flex;
-  align-items: center;
-  justify-content: center;
+  align-items: left;
+  justify-content: left;
   padding: 0.7rem 0 !important;
   margin: 0rem .65rem !important;
-  -webkit-align-items: center;
-  -webkit-justify-content: center;
+  -webkit-align-items: left;
+  -webkit-justify-content: left;
 }
 .cid-rniXOTrcAy .nav-item:focus,
 .cid-rniXOTrcAy .nav-link:focus {
