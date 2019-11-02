@@ -654,8 +654,7 @@ section.lazy-placeholder:after {
   padding: 0.7rem 0 !important;
   margin: 0rem .65rem !important;
   -webkit-align-items: left;
-  -webkit-justify-content: left;
-  transition: opacity 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -webkit-justify-content: left;  
 }
 .cid-rniXOTrcAy .nav-item:focus,
 .cid-rniXOTrcAy .nav-link:focus {
