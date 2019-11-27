@@ -702,8 +702,8 @@ section.lazy-placeholder:after {
   display: inline-flex;
 }
 .cid-rniXOTrcAy .navbar-toggleable-sm .navbar-collapse {
-  justify-content: flex-end;
-  -webkit-justify-content: flex-end;
+  justify-content: center;
+  -webkit-justify-content: center;
   padding-right: 5rem;
   width: auto;
 }
