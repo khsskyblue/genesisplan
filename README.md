@@ -1,2 +1,2 @@
-# genesis holdings
+# genesis plan
 GitHub Pages
