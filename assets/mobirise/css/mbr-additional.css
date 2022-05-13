@@ -2194,11 +2194,11 @@ section.lazy-placeholder:after {
 
 ::-webkit-scrollbar {
     width: 7px;
-    background-color: #3EABDC;
+    background-color: #a28448;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #3EABDC;
+    background: #a28448;
 }
 
 ::-webkit-scrollbar-thumb:hover {
