@@ -1,17 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Russo+One:400&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Gothic+A1:100,200,300,400,500,600,700,800,900&display=swap);
-@font-face {
-    font-family: 'SBAggroB';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+
 
 
 
 
 body {
-  font-family: SBAggroB;
+  font-family: Rubik;
 }
 .display-1 {
   font-family: 'Russo One', sans-serif;
@@ -46,7 +41,7 @@ body {
   font-size: 1.6rem;
 }
 .display-7 {
-  font-family: 'SBAggroB', sans-serif;
+  font-family: 'Gothic A1', sans-serif;
   font-size: 1rem;
   font-display: swap;
 }
