@@ -2204,3 +2204,85 @@ section.lazy-placeholder:after {
 ::-webkit-scrollbar-thumb:hover {
     box-shadow: inset 0 0 100px 20px #a28448;
 }
+.cid-rqZLmn53WZ1 {
+  padding-top: 105px;
+  padding-bottom: 105px;
+  background-image: url("../../../assets/images/placdiodomingo_back.jpg");
+}
+.cid-rqZLmn53WZ1 h2 {
+  text-align: left;
+}
+.cid-rqZLmn53WZ1 h4 {
+  text-align: left;
+  font-weight: 500;
+}
+.cid-rqZLmn53WZ1 p {
+  color: #767676;
+  text-align: left;
+}
+.cid-rqZLmn53WZ1 .aside-content {
+  flex-basis: 100%;
+  -webkit-flex-basis: 100%;
+}
+.cid-rqZLmn53WZ .block-content {
+  display: -webkit-flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  word-break: break-word;
+}
+.cid-rqZLmn53WZ1 .media {
+  margin: initial;
+  align-items: center;
+  -webkit-align-items: center;
+}
+.cid-rqZLmn53WZ1 .mbr-figure {
+  align-self: flex-start;
+  -webkit-align-self: flex-start;
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+}
+.cid-rqZLmn53WZ1 .card-img {
+  padding-right: 2rem;
+  width: auto;
+}
+.cid-rqZLmn53WZ1 .card-img span {
+  font-size: 72px;
+  color: #707070;
+}
+@media (min-width: 992px) {
+  .cid-rqZLmn53WZ1 .mbr-figure {
+    padding-right: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-rqZLmn53WZ1 .mbr-figure {
+    padding-right: 0;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 300px) {
+  .cid-rqZLmn53WZ1 .card-img span {
+    font-size: 40px !important;
+  }
+}
+.cid-rqZLmn53WZ1 .mbr-text B {
+  color: #20baed;
+}
+.cid-rqZLmn53WZ1 B {
+  color: #20baed;
+}
+.cid-rqZLmn53WZ1 P {
+  color: #ffffff;
+}
+.cid-rqZLmn53WZ H4 {
+  color: #20baed;
+}
+.cid-rqZLmn53WZ1 H2 {
+  color: #20baed;
+  text-align: left;
+}
+.cid-rqZLmn53WZ1 .mbr-text {
+  text-align: left;
+  color: #20baed;
+}
